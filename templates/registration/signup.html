@@ -1,0 +1,147 @@
+{% block content %}
+    <form method="post" name="signup_form">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="small-120 medium-120 large-120 cell">
+                    <h3 class="text-center content-header">{{ website_name }} Account Form</h3></div>
+                {% csrf_token %}
+                {{ form }}
+                <!--
+                <div class="small-90 small-offset-15 medium-70 medium-offset-25 large-60 large-offset-30 cell"><label>Username:&nbsp;<input type="text" pattern="[a-zA-Z0-9!@#$%^*_|]{6,25}" name="username" maxlength="30" required="required"></label></div>
+                <div class="small-90 small-offset-15 medium-70 medium-offset-25 large-60 large-offset-30 cell"><label>Password:&nbsp;<input type="password" name="password1" required="required"></label></div>
+                <div class="small-90 small-offset-15 medium-70 medium-offset-25 large-60 large-offset-30 cell"><label>Confirm Password:&nbsp;<input type="password" name="password2" required="required"></label></div>
+                <div class="small-90 small-offset-15 medium-70 medium-offset-25 large-60 large-offset-30 cell"><label>First name:&nbsp;<input type="text" name="first_name" maxlength="50" required="required"></label></div>
+                <div class="small-90 small-offset-15 medium-70 medium-offset-25 large-60 large-offset-30 cell"><label>Last name:&nbsp;<input type="text" name="last_name" maxlength="50" required="required"></label></div>
+                <div class="small-90 small-offset-15 medium-70 medium-offset-25 large-60 large-offset-30 cell"><label>Email:&nbsp;<input type="email" name="email" maxlength="70" required="required"></label></div>
+                <div class="small-90 small-offset-15 medium-70 medium-offset-25 large-60 large-offset-30 cell"><fieldset><legend>Account_Type</legend><label><input type="radio" name="account_type" value="donor" required="required">Donor</label><label><input type="radio" name="account_type" value="staff" required="required">Staff (Activation Code Required)</label></fieldset></div>
+                <div class="small-90 small-offset-15 medium-70 medium-offset-25 large-60 large-offset-30 cell text-center"><button class="submit-button" type="submit" name="Signup" value="">Sign up</button></div>
+            -->
+            </div>
+        </div>
+    </form>
+{% endblock %}
+
+<!--
+                <div class="small-120 medium-120 large-120 cell">
+                    <label>Blood Group:&nbsp;
+                        <select name="blood_group">
+                            <option disabled selected value>Choose Blood Type</option>
+                            <option value="A+">A+ (A Positive)</option>
+                            <option value="A-">A- (A Negative)</option>
+                            <option value="AB+">AB+ (AB Positive)</option>
+                            <option value="AB-">AB- (AB Negative)</option>
+                            <option value="B+">B+ (B Positive)</option>
+                            <option value="B-">B- (B Negative)</option>
+                            <option value="O+">O+ (O Positive)</option>
+                            <option value="O-">O- (O Negative)</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="small-120 medium-120 large-120 cell"><label>Street Name:&nbsp;<input type="text" name="street_name" maxlength="100" required="required"></label></div>
+                <div class="small-120 medium-120 large-120 cell"><label>City:&nbsp;<input type="text" name="city_name" maxlength="40" required="required"></label></div>
+                <div class="small-120 medium-120 large-120 cell">
+                    <label>State:&nbsp;
+                        <select name="state_name">
+                            <option disabled selected value>Select A State</option>
+                            <option value="AL">AL</option>
+                            <option value="AK">AK</option>
+                            <option value="AR">AR</option>
+                            <option value="AZ">AZ</option>
+                            <option value="CA">CA</option>
+                            <option value="CO">CO</option>
+                            <option value="CT">CT</option>
+                            <option value="DC">DC</option>
+                            <option value="DE">DE</option>
+                            <option value="FL">FL</option>
+                            <option value="GA">GA</option>
+                            <option value="HI">HI</option>
+                            <option value="IA">IA</option>
+                            <option value="ID">ID</option>
+                            <option value="IL">IL</option>
+                            <option value="IN">IN</option>
+                            <option value="KS">KS</option>
+                            <option value="KY">KY</option>
+                            <option value="LA">LA</option>
+                            <option value="MA">MA</option>
+                            <option value="MD">MD</option>
+                            <option value="ME">ME</option>
+                            <option value="MI">MI</option>
+                            <option value="MN">MN</option>
+                            <option value="MO">MO</option>
+                            <option value="MS">MS</option>
+                            <option value="MT">MT</option>
+                            <option value="NC">NC</option>
+                            <option value="NE">NE</option>
+                            <option value="NH">NH</option>
+                            <option value="NJ">NJ</option>
+                            <option value="NM">NM</option>
+                            <option value="NV">NV</option>
+                            <option value="NY">NY</option>
+                            <option value="ND">ND</option>
+                            <option value="OH">OH</option>
+                            <option value="OK">OK</option>
+                            <option value="OR">OR</option>
+                            <option value="PA">PA</option>
+                            <option value="RI">RI</option>
+                            <option value="SC">SC</option>
+                            <option value="SD">SD</option>
+                            <option value="TN">TN</option>
+                            <option value="TX">TX</option>
+                            <option value="UT">UT</option>
+                            <option value="VT">VT</option>
+                            <option value="VA">VA</option>
+                            <option value="WA">WA</option>
+                            <option value="WI">WI</option>
+                            <option value="WV">WV</option>
+                            <option value="WY">WY</option>
+                            <option disabled selected value>US Territories</option>
+                            <option value="AS">AS</option>
+                            <option value="GU">GU</option>
+                            <option value="MP">MP</option>
+                            <option value="PR">PR</option>
+                            <option value="UM">UM</option>
+                            <option value="VI">VI</option>
+                            <option disabled selected value>APO Address</option>
+                            <option value="AA">AA</option>
+                            <option value="AP">AP</option>
+                            <option value="AE">AE</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="small-120 medium-120 large-120 cell"><label>Zip:&nbsp;<input type="number" name="zip_code" maxlength="5" required="required"></label></div>
+-->
+<!--
+                <div class="small-120 medium-120 large-120 cell"><label>Phone Number:&nbsp;<input type="tel" name="mobile_number" maxlength="20" required="required"></label></div>
+                <div class="small-120 medium-120 large-120 cell">
+                    <label>Security Question:&nbsp;
+                        <select name="security_question">
+                            <option disabled selected value>Choose A Question</option>
+                            <option value="1">What was your childhood nickname?</option>
+                            <option value="2">In what city did you meet your spouse/significant other?</option>
+                            <option value="3">What is the name of your favorite childhood friend?</option>
+                            <option value="4">What street did you live on in third grade?</option>
+                            <option value="5">What is your oldest sibling’s birthday month and year? (e.g., January 1900)</option>
+                            <option value="6">What is the middle name of your youngest child?</option>
+                            <option value="7">What is your oldest sibling's middle name?</option>
+                            <option value="8">What school did you attend for sixth grade?</option>
+                            <option value="9">What was your childhood phone number?</option>
+                            <option value="10">What is your oldest cousin's first and last name?</option>
+                            <option value="11">What was the name of your first stuffed animal?</option>
+                            <option value="12">In what city or town did your mother and father meet?</option>
+                            <option value="13">Where were you when you had your first kiss?</option>
+                            <option value="14">What is the first name of the boy or girl that you first kissed?</option>
+                            <option value="15">What was the last name of your third grade teacher?</option>
+                            <option value="16">In what city does your nearest sibling live?</option>
+                            <option value="17">What is your youngest brother’s birthday month and year? (e.g., January 1900)</option>
+                            <option value="18">What is your maternal grandmother's maiden name?</option>
+                            <option value="19">In what city or town was your first job?</option>
+                            <option value="20">What is the name of the place your wedding reception was held?</option>
+                            <option value="21">What is the name of a college you applied to but didn't attend?</option>
+                            <option value="22">Where were you when you first heard about 9/11?</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="small-120 medium-120 large-120 cell"><label>Security Answer:&nbsp;<input type="text" name="security_answer" maxlength="30" required="required"></label></div>
+                <div class="small-120 medium-120 large-120 cell"><label>Last Time Blood Donated:&nbsp;<input type="date" name="last_blood_donation" maxlength="50" required="required"></label></div>
+                <div class="small-120 medium-120 large-120 cell"><label>Subscribe&nbsp;(<span style="font-style: italic;">uncheck to unsubscribe</span>):&nbsp;<input type="checkbox" name="subscribe_request" required="required" checked></label></div>
+-->

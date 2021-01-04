@@ -1,0 +1,10 @@
+{% load static %}
+{% block content %}
+    <form action="{% url 'logout' %}" method="post">
+    {% csrf_token %}
+        <div class="text-center">
+            <input class="submit-button" type="submit" value="Logout">
+            <input type="hidden" name="next" value="{{ request.path }}">
+        </div>
+    </form>
+{% endblock %}

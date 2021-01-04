@@ -1,0 +1,15 @@
+{% block content %}
+    <form id="search-form" action="{% url 'search' %}" method="post">
+        {% csrf_token %}
+        {%  if search_alert %}
+            <div class="alert-box">{{ search_alert }}</div>
+        {% endif %}
+        {% for field in search_form %}
+            <label>
+                {{ field }}
+            </label>
+        {% endfor %}
+        <div class="text-center"><button class="submit-button" type="submit" name="search_form" value="">Search</button></div>
+        <input type="hidden" name="next" value="{{ request.path }}">
+    </form>
+{% endblock %}

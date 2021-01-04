@@ -1,0 +1,5 @@
+{% autoescape off %}
+Hi {{ user.username }},
+Click on the link to complete your Medical Staff registration,
+http://{{ domain }}{% url 'activate_medical_staff' uidb64=uid token=token %}
+{% endautoescape %}

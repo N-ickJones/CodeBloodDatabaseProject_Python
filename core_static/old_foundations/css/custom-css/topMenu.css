@@ -1,0 +1,92 @@
+/* See base.css */
+#top {
+    display: flex;
+    flex: 1;
+    padding: 10px 2px 2px 2px;
+    border-bottom: 1px solid black;
+}
+#top-left {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2%;
+}
+#top-left a {
+    border-radius: 50%;
+}
+#gear {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    mix-blend-mode: multiply;
+    min-width: 35px;
+    border-radius: 50%;
+}
+#top-center-and-right {
+    display: flex;
+    flex: 10;
+    flex-flow: column;
+}
+#top-right {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+#signup-container {
+    margin: auto;
+}
+#top-menu-drop-box {
+    display: none;
+    margin-left: auto;
+    margin-right: 2%;
+}
+#top-center {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 13%;
+}
+#top-center a {
+    width: 70%;
+}
+#top-center img {
+    width: 100%;
+    min-width: 200px;
+}
+#nav-menu {
+    margin: auto;
+}
+#drop-button-container {
+    display: flex;
+    align-content: center;
+}
+#drop-button {
+    flex: .8;
+    display: flex;
+    cursor: pointer;
+    margin: 2px 0 2px 0;
+    width: 100%;
+}
+#drop-label {
+    display: flex;
+    flex: 0.8;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+    margin-left: 2px;
+    font-size: 180%;
+}
+#drop-label:hover {
+    cursor: pointer;
+}
+#drop-space {
+    flex: 6;
+}
+.is-drilldown-submenu-parent {
+    width: 30% !important;
+}

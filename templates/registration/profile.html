@@ -1,0 +1,56 @@
+    <div class="grid-container">
+        <form method="post" name="your_name" enctype="multipart/form-data">
+        {% csrf_token %}
+            <div class="grid-x grid-padding-x">
+                <div class="small-120 medium-120 large-120 cell">
+                    <h3 class="text-center content-header">{{ form_title }}</h3>
+                </div>
+                {% if page_error %}
+                     <div class="small-120 medium-120 large-120 cell">
+                        <h5 class="text-center">{{ page_error }}</h5>
+                    </div>
+                {% endif %}
+                <div class="small-120 medium-120 large-120 cell" style="padding: 10px;margin-bottom: 5px;">
+                    <div>Progress</div>
+                    <div class="secondary progress">
+                        <span class="progress-meter" style="width: {{ progress }}%">
+                            <span class="progress-meter-text">{{ progress }}%</span>
+                        </span>
+                    </div>
+                </div>
+
+                {% for field in form %}
+                    {#% if form.profile_pic %#}
+                    <div class="cell small-80 medium-80 large-80" style="min-height: 50px">
+                        <label>
+                            {{ field.label_tag }}
+                            {{ field }}
+                        </label>
+                            {% for key, value in form.errors.items %}
+                                {% if key is field.name %}
+                                   <div class="alert-box">{{ value }}</div>
+                                {% endif %}
+                            {% endfor %}
+                    </div>
+                    <!--div class="cell small-40 medium-40 large-40">
+                        {#% if profile_picture %#}
+                            <img src="{{ profile_picture }}" alt="{{ user.name }} profile picture"
+                                 style="min-width: 50px;
+                                        max-width: 100px;
+                                        min-height: 50px;
+                                        max-height: 100px;
+                             " />
+                        {#% else %#}
+                            <div>No Profile Picture</div>
+                        {#% endif %#}
+                    </div-->
+                    {#% endif %#}
+                {% endfor %}
+                {% if progress != '100' %}
+                <div class="small-90 small-offset-15 medium-70 medium-offset-25 large-60 large-offset-30 cell text-center">
+                    <button class="submit-button" type="submit">Submit</button>
+                </div>
+                {% endif %}
+            </div>
+        </form>
+    </div>

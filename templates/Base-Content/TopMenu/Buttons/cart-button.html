@@ -1,0 +1,45 @@
+{% load static %}
+
+{% block content %}
+
+    <button class="button" type="button" data-toggle="cart-dropdown">
+        <span class="cell hide-for-small-only">Cart</span>
+        <span class="fi-shopping-cart show-for-small-only"></span>
+    </button>
+
+    <div class="dropdown-pane" data-position="right" data-alignment="bottom" id="cart-dropdown" data-dropdown style="width:auto;">
+        {% if user.is_authenticated %}
+            <div class="text-center" style="min-width: 200px;max-width: 250px;min-height: 275px;">
+                <div class="primary-background contrast-color rounded">Hello, {{ user }}</div>
+                <div style="border-bottom: 1px solid black; margin: 10px;">Shopping Cart</div>
+                {% if cart_items %}
+                    {% for item in cart_items %}
+                    <div></div>
+                    {% endfor %}
+
+                {% else %}
+
+                    <div class="alert-box">Cart is Empty</div>
+
+                {% endif %}
+            </div>
+        {% else %}
+            <div class="text-center" style="min-width: 200px;max-width: 250px;min-height: 275px;">
+                <div class="primary-background contrast-color rounded">Hello, Anonymous User</div>
+                <div style="border-bottom: 1px solid black;margin: 10px;">Shopping Cart</div>
+                {% if cart_items %}
+
+                    {% for item in cart_items %}
+                    <div></div>
+                    {% endfor %}
+
+                {% else %}
+
+                    <div class="alert-box">Cart is Empty</div>
+
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+
+{% endblock %}

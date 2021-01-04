@@ -1,0 +1,31 @@
+    <div class="grid-container">
+        <form method="post" name="your_name" enctype="multipart/form-data">
+        {% csrf_token %}
+            <div class="grid-x grid-padding-x">
+                <div class="small-120 medium-120 large-120 cell">
+                    <h3 class="text-center content-header">{{ form_title }}</h3>
+                </div>
+                {% if page_error %}
+                     <div class="small-120 medium-120 large-120 cell">
+                        <h5 class="text-center">{{ page_error }}</h5>
+                    </div>
+                {% endif %}
+                {% for field in patient_forms %}
+                    <div class="cell small-80 medium-80 large-80" style="min-height: 50px">
+                        <label>
+                            {{ field.label_tag }}
+                            {{ field }}
+                        </label>
+                            {% for key, value in form.errors.items %}
+                                {% if key is field.name %}
+                                   <div class="alert-box">{{ value }}</div>
+                                {% endif %}
+                            {% endfor %}
+                    </div>
+                {% endfor %}
+                <div class="small-90 small-offset-15 medium-70 medium-offset-25 large-60 large-offset-30 cell text-center">
+                    <button class="submit-button" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>

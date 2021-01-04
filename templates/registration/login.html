@@ -1,0 +1,16 @@
+{% block content %}
+    <form id="login-form" action="{% url 'login' %}" method="post">
+        {% csrf_token %}
+        {%  if login_alert %}
+            <div class="alert-box">{{ login_alert }}</div>
+        {% endif %}
+        {% for field in login_form %}
+            <label>
+                {{ field.label_tag }}
+                {{ field }}
+            </label>
+        {% endfor %}
+        <div class="text-center"><button class="submit-button" type="submit" name="login_form" value="">Login</button></div>
+        <input type="hidden" name="next" value="{{ request.path }}">
+    </form>
+{% endblock %}

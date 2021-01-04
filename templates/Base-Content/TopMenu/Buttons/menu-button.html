@@ -1,0 +1,24 @@
+{% load static %}
+
+{% block content %}
+
+    <button class="button" type="button" data-toggle="main-dropdown" style="margin: 0; padding: 7% 20% 7% 20%;">
+        <span class="fi-thumbnails" style="font-size: 300%; color: white;"></span>
+        <!--img class="cell small-100 medium-10 large-10" style="max-height: 50px; max-width:60px;" src="{#% static 'assets/images/dropIcon.png' %#}" alt="Drop-down menu" />
+        -->
+    </button>
+    <div class="dropdown-pane" data-position="right" data-alignment="top" id="main-dropdown" data-dropdown style="width: auto;">
+        <div style="min-width: 175px; max-width: 245px;">
+            <div>
+                <h4 class="main-submenu__title">Menu</h4>
+                <ul class="vertical menu accordion-menu" data-accordion-menu data-auto-height="true" data-animate-height="true">
+
+                    {% include 'Base-Content/TopMenu/Navigation/navItems.html' %}
+                </ul>
+            </div>
+            <div>{% include 'Base-Content/MainMenu/SubMenu/SubMenu-Top.html' %}</div>
+            <div>{% include 'Base-Content/MainMenu/SubMenu/SubMenu-Bottom.html' %}</div>
+        </div>
+    </div>
+
+{% endblock %}

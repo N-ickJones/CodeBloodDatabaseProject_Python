@@ -1,0 +1,50 @@
+.primary-background {
+    background-color: $primary-color;
+}
+
+.secondary-background {
+    background-color: $secondary-color;
+}
+.contrast-color {
+    color: $primary-color;
+}
+.contrast-color {
+    color: $white;
+}
+.rounded {
+    border-radius: $global-radius;
+}
+.underline {
+    text-decoration: underline;
+}
+.content-header {
+    background-color: $primary-color;
+    border-radius: $global-radius;
+    color: $white;
+    margin-bottom: 1rem;
+}
+.main-submenu__title {
+    background-color: $secondary-color;
+    border-radius: $global-radius;
+    color: $white;
+    text-align: center;
+    padding: 0.3rem 0 0.3rem 0;
+    margin: 0;
+}
+.submit-button {
+    background-color: $secondary-color;
+    border-radius: $global-radius;
+    color: $white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.alert-box{
+    background-color: $alert-color;
+    border-radius: $global-radius;
+    color: $white;
+    //padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.profile-block {
+    border: 5px solid black;
+}

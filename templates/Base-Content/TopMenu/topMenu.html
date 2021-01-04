@@ -1,0 +1,41 @@
+{% load static %}
+{% block content %}
+
+    <div class="grid-x" style="padding: 6px;border-bottom: 2px solid rgba(186, 186, 186, 1);">
+        {% if website_name %}
+        <div class="cell small-60 medium-30 large-30 text-center" style="padding-left: 1rem;">
+            <a href="{% url 'index' %}"><img style="max-height: 100px;" src="{% static 'assets/images/site-specific/Blood_Logo.gif' %}" alt="{{ website_name }} Logo" /></a>
+        </div >
+        <!--div class="cell xsmall-25 small-20 medium-10 large-10 text-center" style="padding-left: 1rem;">
+            <a href="{% url 'index' %}"><img src="{% static 'assets/images/site-specific/logo.png' %}" alt="{{ website_name }} Logo" /></a>
+        </div>
+        <div class="cell small-70 medium-60 large-60 small-offset-0 medium-offset-20 large-offset-20">
+            <div class="text-center show-for-small-only"><a href="{% url 'index' %}"><span style="font-size: 10vw;font-family: 'Maiandra GD', serif;color: black;font-weight: bold;">{{ website_name }}</span></a></div>
+            <div class="text-center show-for-medium-only"><a href="{% url 'index' %}"><span style="font-size: 8vw;font-family: 'Maiandra GD', serif;color: black;font-weight: bold;">{{ website_name }}</span></a></div>
+            <div class="text-center show-for-large-only"><a href="{% url 'index' %}"><span style="font-size: 6vw;font-family: 'Maiandra GD', serif;color: black;font-weight: bold;">{{ website_name }}</span></a></div>
+            <div class="text-center show-for-xlarge-only"><a href="{% url 'index' %}"><span style="font-size: 4vw;font-family: 'Maiandra GD', serif;color: black;font-weight: bold;">{{ website_name }}</span></a></div>
+            <div class="text-center show-for-xxlarge-only"><a href="{% url 'index' %}"><span style="font-size: 2vw;font-family: 'Maiandra GD', serif;color: black;font-weight: bold;">{{ website_name }}</span></a></div>
+        </div -->
+    {%  endif %}
+        <div class="cell small-60 medium-90 large-90">
+            <div class="grid-x">
+                <div class="cell text-right">
+                    {% include 'Base-Content/TopMenu/Buttons/search-button.html' %}
+                    {% include 'Base-Content/TopMenu/Buttons/cart-button.html' %}
+                    {% include 'Base-Content/TopMenu/Buttons/account-button.html' %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-x" >
+        <div class="cell small-120 medium-120 large-120 show-for-large" style="border: 1px solid rgba(229, 229, 229, 1);padding: 6px;border-bottom: 2px solid rgba(186, 186, 186, 1);">
+            <ul class="dropdown menu align-center-middle" data-dropdown-menu>
+                {% include 'Base-Content/TopMenu/Navigation/navItems.html' %}
+            </ul>
+        </div>
+        <div class="cell small-30 medium-20 hide-for-large" style="border: 1px solid rgba(229, 229, 229, 1);padding: 3px;">
+           {% include 'Base-Content/TopMenu/Buttons/menu-button.html' %}
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,35 @@
+<div class="grid-x">
+    {% for review in reviews %}
+        <div class="cell">
+            <div class="grid-x" style="margin-top: 10px; margin-bottom: 10px;">
+                <div class="cell">
+                    <span style="font-weight: bold; padding-right: 10px;">#{{ review.0 }}</span>
+                </div>
+                <div class="cell">
+                    <span>Review Date & Time: {{ review.1 }}</span>
+                </div>
+                <div class="cell">
+                    <span>Title: {{ review.2 }}</span>
+                </div>
+                <div class="cell">
+                    <span>Rating: {{ review.3 }}</span>
+                </div>
+                <div class="cell">
+                    <span>Review: {{ review.4 }}</span>
+                </div>
+                <div class="cell">
+                    <span>Edited: {{ review.5 }}</span>
+                </div>
+                <div class="cell">
+                    <span>Patient's Username: {{ review.6 }}</span>
+                </div>
+                <div class="cell">
+                   <span>Facility: {{ review.7 }}</span>
+                </div>
+                <div class="cell">
+                    <span>Medical Staff: {{ review.8 }}</span>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

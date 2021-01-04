@@ -1,0 +1,19 @@
+{% load static %}
+
+{% block content %}
+    <button class="button" type="button" data-toggle="search-dropdown">
+        <span class="fi-magnifying-glass cell hide-for-small-only"></span>
+        <span class="fi-magnifying-glass show-for-small-only"></span>
+    </button>
+    <div class="dropdown-pane" data-position="right" data-alignment="bottom" id="search-dropdown" data-dropdown style="width:auto;">
+        {#% if user.is_authenticated %#}
+            {#% if user.is_staff %#}
+                <div class="text-center" style="min-width: 200px;max-width: 250px;">
+                    <div style="padding: 1px;">{% include 'registration/search_form.html' %}</div>
+                </div>
+            {#% else %#}
+            {#% endif %#}
+        {#% else %#}
+        {#% endif %#}
+    </div>
+{% endblock %}

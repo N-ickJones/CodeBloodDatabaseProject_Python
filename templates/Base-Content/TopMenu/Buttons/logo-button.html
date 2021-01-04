@@ -1,0 +1,25 @@
+{% load static %}
+
+{% block content %}
+    <button class="button" type="button" data-toggle="logo-dropdown">
+        <img style="height: 14.4px;" src="{% static 'assets/images/site-specific/logo.png' %}" alt="{{ website_name }} Logo" />
+    </button>
+    <div class="dropdown-pane" data-position="right" data-alignment="bottom" id="logo-dropdown" data-dropdown style="width:auto;">
+        <div>
+            <span>
+
+            </span>
+        </div>
+        {#% if user.is_authenticated %#}
+
+            {#% if user.is_staff %#}
+
+            {#% else %#}
+
+            {#% endif %#}
+
+        {#% else %#}
+
+        {#% endif %#}
+    </div>
+{% endblock %}

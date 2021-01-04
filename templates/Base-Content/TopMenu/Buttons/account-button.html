@@ -1,0 +1,43 @@
+{% load static %}
+
+{% block content %}
+    <button class="button" type="button" data-toggle="account-dropdown">
+        <span class="cell hide-for-small-only">Account</span>
+        <span class="fi-wrench show-for-small-only"></span>
+    </button>
+    <div class="dropdown-pane" data-position="right" data-alignment="bottom" id="account-dropdown" data-dropdown style="width:auto;">
+        {% if user.is_authenticated %}
+            {% if user.is_staff %}
+                <div class="text-left" style="min-width: 150px;max-width: 250px;min-height: 200px;">
+                <div class="primary-background contrast-color rounded text-center">Staff Account</div>
+                <div style="padding: 1px;"><span class="fi-torso">&nbsp;</span><a href="{% url 'profile' %}" style="font-family: 'Maiandra GD', sans-serif">{{ user }}</a></div>
+                <div style="padding: 1px;"><span class="fi-folder">&nbsp;</span><a href="{% url 'patient_forms' %}">Patient Forms</a></div>
+                <div style="padding: 1px;"><span class="fi-widget">&nbsp;</span><a href="{% url 'settings' %}">Settings</a></div>
+                <div style="padding: 1px;"><span class="fi-lock">&nbsp;</span><a href="{% url 'password_change' %}">Change Password</a></div>
+                <div style="padding: 1px;"><span class="">&nbsp;</span><a href=""></a></div>
+                <div style="padding: 1px;"><span class="">&nbsp;</span><a href=""></a></div>
+                <div style="padding: 1px;"></div>{% include 'registration/logout.html' %}
+                </div>
+            {% else %}
+                <div class="text-left" style="min-width: 150px;max-width: 250px;min-height: 200px;">
+                <div class="primary-background contrast-color rounded text-center">User Account</div>
+                <div style="padding: 1px;"><span class="fi-torso">&nbsp;</span><a href="{% url 'profile' %}" style="font-family: 'Maiandra GD', sans-serif">{{ user }}</a></div>
+                <div style="padding: 1px;"><span class="fi-usb">&nbsp;&nbsp;</span><a href="{% url 'vials' %}">Vials</a></div>
+                <div style="padding: 1px;"><span class="fi-widget">&nbsp;</span><a href="{% url 'settings' %}">Settings</a></div>
+                <div style="padding: 1px;"><span class="fi-lock">&nbsp;</span><a href="{% url 'password_change' %}">Change Password</a></div>
+                <div style="padding: 1px;"><span class="">&nbsp;</span><a href=""></a></div>
+                <div style="padding: 1px;"><span class="">&nbsp;</span><a href=""></a></div>
+                <div style="padding: 1px;"><span class="">&nbsp;</span><a href=""></a></div>
+                <div style="padding: 1px;"></div>{% include 'registration/logout.html' %}
+                </div>
+            {% endif %}
+        {% else %}
+            <div class="text-center" style="min-width: 200px;max-width: 250px;min-height: 275px;">
+                <div style="padding: 1px;">{% include 'registration/login.html' %}</div>
+                <div style="margin-top: 1rem;padding: 1px;"><span class="fi-torso">&nbsp;</span><a href="{% url 'signup'  %}">Create An Account</a></div>
+                <div style="padding: 1px;"><span class="fi-info">&nbsp;</span><a href="{% url 'username_recovery' %}">Forgot Username?</a></div>
+                <div style="padding: 1px;"><span class="fi-lock">&nbsp;</span><a href="{% url 'password_reset' %}">Forgot Password?</a></div>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

@@ -1,0 +1,82 @@
+{% load static %}
+{% block content %}
+  <li>
+        <a href="{% url 'patient_forms_viewing' %}">Patient Form</a>
+  </li>
+  <li>
+      <a href="#">Blood_Donor</a>
+      <ul class="menu vertical nested">
+          <li>
+              <a href="#">Patient Sheet</a>
+              <ul class="menu vertical nested">
+                  <li><a href="#">View Most Recent Patient Sheet</a></li>
+                  <li><a href="#">View All Patient Sheets</a></li>
+              </ul>
+          </li>
+          <li><a href="#">Donor Registration</a>
+              <ul class="menu vertical nested">
+                  <li><a href="#">Initial Donor Registration Sheet</a></li>
+                  <li><a href="#">Current Donor Registration Sheet</a></li>
+                  <li><a href="#">Update Donor Registration Sheet</a></li>
+              </ul>
+          </li>
+          <li><a href="#">Donation FAQ</a>
+            <ul class="menu vertical nested">
+                  <li><a href="#">Donor Statistics</a></li>
+                  <li><a href="#">Donor Resources</a></li>
+                  <li><a href="#">Donor Forms</a></li>
+              </ul>
+          </li>
+      </ul>
+  </li>
+    <li>
+        <a href="#">Statistics</a>
+        <ul class="menu vertical nested">
+          <li>
+              <a href="#">Pie Graph</a>
+              <ul class="menu vertical nested">
+                  <li><a href="#">Blood Donation History Pie Graph</a></li>
+                  <li><a href="#">Blood Needs History Pie Graph</a></li>
+                  <li><a href="#">Blood Need History Pie Graph</a></li>
+              </ul>
+          </li>
+          <li><a href="#">Bar Graph</a>
+              <ul class="menu vertical nested">
+                  <li><a href="#">Blood Donation History Bar Graph</a></li>
+                  <li><a href="#">Blood Needs History Bar Graph</a></li>
+                  <li><a href="#">Blood Need History Bar Graph</a></li>
+              </ul>
+          </li>
+          <li><a href="#">Scatter Graph</a>
+            <ul class="menu vertical nested">
+                  <li><a href="#">Blood Donation History Scatter Graph</a></li>
+                  <li><a href="#">Blood Needs History Scatter Graph</a></li>
+                  <li><a href="#">Blood Need History Scatter Graph</a></li>
+              </ul>
+          </li>
+        </ul>
+    </li>
+    <li>
+        <a href="{% url 'reviews' %}">Patient Reviews</a>
+    </li>
+    <li>
+        <a href="#">Help</a>
+        <ul class="menu vertical nested">
+          <li>
+              <a href="#">Get More Information</a>
+              <ul class="menu vertical nested">
+                  <li><a href="#">Donor Resources</a></li>
+                  <li><a href="#">Become a Volunteer</a></li>
+                  <li><a href="#">Careers</a></li>
+              </ul>
+          </li>
+          <li><a href="#">About Us</a>
+              <ul class="menu vertical nested">
+                  <li><a href="#">Mission</a></li>
+                  <li><a href="#">Address</a></li>
+                  <li><a href="#">Number</a></li>
+              </ul>
+          </li>
+      </ul>
+    </li>
+{% endblock %}

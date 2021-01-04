@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+   
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ge/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ge/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ge/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ge/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ge/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ge/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ge/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/ge/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/static/css/bottomMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/static/css/bottomMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/static/css/mainMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/static/css/mainMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/static/css/topMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/static/css/topMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/static/images/accessibility.png" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/static/images/accessibility.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/static/images/companyLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/static/images/companyLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/static/javaScript/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/static/javaScript/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/Base-Content/BottomMenu/bottomMenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/Base-Content/MainMenu/mainMenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/Base-Content/TopMenu/Navigation/navItems.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/Base-Content/TopMenu/topMenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/Base-Content/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.filler" beforeDir="false" afterPath="$PROJECT_DIR$/static/.filler" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+<<<<<<< HEAD
+>>>>>>> 7353197b53e41c54319185ed3564f158595bc678
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 75f236198ae45a9eb8092522b9529e4388754a2a
+    </list>
+=======
+    <list default="true" id="358a79dd-95e6-4e21-a228-47c16ded288e" name="Default" comment="" />
+>>>>>>> 810282f9b8b2a6990d68a1adf20d85706a31afa4
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/accounts/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ge/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="e#636#668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.6359935">
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.6799674">
+>>>>>>> 1d97df8729b7a08a12bd2bc6c5bd0c888215498f
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="topMenu.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/Base-Content/TopMenu/topMenu.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="22" column="31" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/myapp/static/javaScript/base.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="296">
+                  <caret line="116" column="2" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="24" column="53" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="53" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="loginMenu.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/myapp/static/css/loginMenu.css">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="loginMenu.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/myapp/static/css/loginMenu.css">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-460">
+                  <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+<<<<<<< HEAD
+        <option value="Python Script" />
+=======
+        <option value="CSS File" />
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nav</find>
+      <find>nav-l</find>
+      <find>gra</find>
+      <find>style</find>
+      <find>pages/</find>
+<<<<<<< HEAD
+      <find>dict</find>
+      <find>divt</find>
+=======
+      <find>&lt;span&gt;</find>
+      <find>&lt;/span&gt;</find>
+      <find>&lt;td&gt;</find>
+      <find>td</find>
+      <find>style=&quot;flex: 1;&quot;</find>
+      <find>style=&quot;padding: 5px;&quot;</find>
+      <find>usernam</find>
+      <find>border: 1px solid black;</find>
+      <find>login-menu</find>
+      <find>width</find>
+      <find>display: flex;</find>
+      <find>height:</find>
+      <find>signIn</find>
+      <find>{% static 'assets/images/signIn-black.png' %</find>
+      <find>class=&quot;login-button&quot;</find>
+      <find>g style=&quot;display: none;&quot;</find>
+      <find>{% static 'assets/images/signIn-black.png' %}</find>
+      <find>-black</find>
+      <find>{% static 'assets/images/signIn-white.png' %}</find>
+      <find>UserCreationForm</find>
+      <find>height:</find>
+<<<<<<< HEAD
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+=======
+      <find>loginButtonTottle</find>
+      <find>true</find>
+      <find>false</find>
+      <find>true2</find>
+>>>>>>> 1d97df8729b7a08a12bd2bc6c5bd0c888215498f
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/runtime.txt" />
+        <option value="$PROJECT_DIR$/myapp/models.py" />
+        <option value="$PROJECT_DIR$/myapp/admin.py" />
+        <option value="$PROJECT_DIR$/ge/wsgi.py" />
+        <option value="$PROJECT_DIR$/myapp/templates/index.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/home.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/home/index.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/myapp/index.html" />
+        <option value="$PROJECT_DIR$/myapp/static/css/style.css" />
+        <option value="$PROJECT_DIR$/myapp/static/javaScript/defaultPageScript.js" />
+        <option value="$PROJECT_DIR$/myapp/templates/Pages/navMenu.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/Pages/index.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/Base-Content/navMenu.html" />
+        <option value="$PROJECT_DIR$/myapp/static/css/mainMenu.css" />
+        <option value="$PROJECT_DIR$/myapp/templates/Base-Content/mainMenu.html" />
+        <option value="$PROJECT_DIR$/myapp/static/css/bottomMenu.css" />
+        <option value="$PROJECT_DIR$/myapp/templates/Base-Content/bottomMenu.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/Pages/base.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/Base-Content/topMenu.html" />
+        <option value="$USER_HOME$/PycharmProjects/companySite/venv/lib/python3.6/site-packages/psycopg2/__init__.py" />
+        <option value="$PROJECT_DIR$/.env" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/myapp/views.py" />
+        <option value="$PROJECT_DIR$/myapp/urls.py" />
+        <option value="$PROJECT_DIR$/ge/urls.py" />
+        <option value="$PROJECT_DIR$/accounts/forms.py" />
+        <option value="$PROJECT_DIR$/myapp/templates/Base-Content/base.html" />
+        <option value="$PROJECT_DIR$/templates/form.html" />
+        <option value="$PROJECT_DIR$/accounts/views.py" />
+=======
+        <option value="$PROJECT_DIR$/ge/settings.py" />
+        <option value="$PROJECT_DIR$/templates/registration/logged_out.html" />
+        <option value="$PROJECT_DIR$/templates/registration/signup.html" />
+        <option value="$PROJECT_DIR$/templates/registration/success.html" />
+        <option value="$PROJECT_DIR$/templates/registration/hold.html" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/ge/urls.py" />
+        <option value="$PROJECT_DIR$/myapp/views.py" />
+        <option value="$PROJECT_DIR$/templates/Base-Content/base.html" />
+        <option value="$PROJECT_DIR$/myapp/static/css/base.css" />
+        <option value="$PROJECT_DIR$/templates/Base-Content/TopMenu/topMenu.html" />
+        <option value="$PROJECT_DIR$/myapp/static/css/topMenu.css" />
+        <option value="$PROJECT_DIR$/myapp/static/css/loginMenu.css" />
+<<<<<<< HEAD
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+=======
+        <option value="$PROJECT_DIR$/myapp/static/javaScript/base.js" />
+<<<<<<< HEAD
+>>>>>>> 1d97df8729b7a08a12bd2bc6c5bd0c888215498f
+=======
+        <option value="$PROJECT_DIR$/.gitignore" />
+>>>>>>> 7353197b53e41c54319185ed3564f158595bc678
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-42" />
+    <option name="y" value="463" />
+    <option name="width" value="1440" />
+    <option name="height" value="351" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="173" />
+    <option name="y" value="40" />
+    <option name="width" value="1546" />
+    <option name="height" value="931" />
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="geJune15thBackup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geJune15thBackup" type="462c0819:PsiDirectoryNode" />
+            </path>
+<<<<<<< HEAD
+            <path>
+<<<<<<< HEAD
+              <item name="ge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ge" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ge" type="b2602c69:ProjectViewProjectNode" />
+=======
+              <item name="geJune15thBackup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geJune15thBackup" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+              <item name="ge" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geJune15thBackup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geJune15thBackup" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geJune15thBackup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geJune15thBackup" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geJune15thBackup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geJune15thBackup" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geJune15thBackup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geJune15thBackup" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="javaScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+=======
+>>>>>>> 7353197b53e41c54319185ed3564f158595bc678
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myapp/static/images" />
+      <recent name="$PROJECT_DIR$/myapp/javaScript" />
+      <recent name="$PROJECT_DIR$/myapp/static/jQuery" />
+      <recent name="$PROJECT_DIR$/myapp" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nicho\Desktop\geJune15thBackup\templates\signup" />
+      <recent name="C:\Users\nicho\Desktop\geJune15thBackup" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Exclude" />
+      <recent name="$PROJECT_DIR$/myapp/templates/Base-Content" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ge" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ge.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="358a79dd-95e6-4e21-a228-47c16ded288e" name="Default" comment="" />
+      <created>1528950923214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528950923214</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="173" y="40" width="1546" height="931" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2887768" />
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2887768" />
+>>>>>>> 1d97df8729b7a08a12bd2bc6c5bd0c888215498f
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27240565" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17362046" />
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+=======
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28751576" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1756393" />
+>>>>>>> 7353197b53e41c54319185ed3564f158595bc678
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" show_stripe_button="false" weight="0.13541667" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="manage.py@ge" order="7" weight="0.32900944" />
+=======
+      <window_info active="true" anchor="bottom" id="manage.py@ge" order="7" visible="true" weight="0.32900944" />
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32900944" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28911918" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2552521" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="manage.py@ge" order="11" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="4" show_stripe_button="false" weight="0.13541667" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+<<<<<<< HEAD
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myapp/views.py</url>
+          <line>1</line>
+        </line-breakpoint>
+      </breakpoints>
+=======
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/myapp/templates/home/index.html" />
+    <entry file="file://$PROJECT_DIR$/myapp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1170">
+          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="36" />
+          <folding>
+            <element signature="e#307#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/.filler">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ge/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="36" />
+          <folding>
+            <element signature="e#307#329#0" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/urls.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/lib/python3.6/site-packages/django/utils/autoreload.py" />
+    <entry file="file://$PROJECT_DIR$/myapp/static/jQuery/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/static/images/gear.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/static/images/companyLogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ge/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/static/css/bottomMenu.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Base-Content/BottomMenu/bottomMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Base-Content/MainMenu/mainMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Base-Content/TopMenu/Navigation/navItems.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/static/css/mainMenu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/lib/python3.6/site-packages/django/utils/autoreload.py">
+=======
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/lib/python3.6/site-packages/psycopg2/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Exclude/.env" />
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/lib/python3.6/site-packages/decouple.py" />
+    <entry file="file://$PROJECT_DIR$/staticfiles/.filler" />
+    <entry file="file://$PROJECT_DIR$/templates/.filler" />
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 7353197b53e41c54319185ed3564f158595bc678
+    <entry file="file://$PROJECT_DIR$/static/.filler">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/signup/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/myapp/models.py">
+=======
+    <entry file="file://$PROJECT_DIR$/templates/registration/logged_out.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/Lib/site-packages/django/urls/conf.py">
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/hold.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ge/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="51" column="59" lean-forward="true" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
+          <folding>
+            <element signature="e#307#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/myapp/templates/Base-Content/TopMenu/topMenu.html">
+=======
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/Lib/site-packages/django/contrib/admin/templates/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/password.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/input_option.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/input.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/attrs.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/Lib/site-packages/django/contrib/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/Lib/site-packages/django/contrib/auth/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/Lib/site-packages/django/forms/forms.py">
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="251" column="31" selection-start-line="251" selection-start-column="31" selection-end-line="251" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/myapp/templates/Base-Content/MainMenu/mainMenu.html">
+=======
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/Lib/site-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/models.py">
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ge/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/companySite/venv/Lib/site-packages/django/contrib/auth/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Base-Content/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="85" lean-forward="true" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/static/css/topMenu.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="823">
+          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="36" />
+          <folding>
+            <element signature="e#307#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/.filler">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+=======
+        <state relative-caret-position="291">
+          <caret line="91" column="34" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+=======
+        <state relative-caret-position="78">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+>>>>>>> 1d97df8729b7a08a12bd2bc6c5bd0c888215498f
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Base-Content/TopMenu/topMenu.html">
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/static/css/loginMenu.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/myapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ge/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#636#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/templates/Base-Content/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="76" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#95#0" expanded="true" />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/myapp/static/css/topMenu.css">
+=======
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+>>>>>>> 1d97df8729b7a08a12bd2bc6c5bd0c888215498f
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/static/javaScript/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+>>>>>>> 0f0b3bc94171f92758f6d202ea24e2e96970428d
+=======
+        <state relative-caret-position="567">
+=======
+        <state relative-caret-position="296">
+>>>>>>> 7353197b53e41c54319185ed3564f158595bc678
+          <caret line="116" column="2" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+>>>>>>> 1d97df8729b7a08a12bd2bc6c5bd0c888215498f
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

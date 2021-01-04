@@ -1,0 +1,34 @@
+<!-- HTML Layout Purpose: Code Blood Author: Nicholas Jones Date: 10/05/2018 Version: 2.0 -->
+{% load staticfiles %}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{% static 'codeblood_foundations/css/app.css'%}">
+        <link rel="stylesheet" href="{% static 'foundation-icons/foundation-icons/foundation-icons.css' %}" />
+        {% if website_name %}
+            <title>{{ website_name }}</title>
+        {% endif %}
+    </head>
+    <body>
+        <div class="grid-x">
+            <div class="cell small-120 medium-120 large-120 xlarge-100 xlarge-offset-10 xxlarge-80 xxlarge-offset-20">
+                <div>
+                    {% include 'Base-Content/TopMenu/topMenu.html' %}
+                </div>
+                <div>
+                    {% include 'Base-Content/MainMenu/mainMenu.html' %}
+                </div>
+                <div style="margin-top: 10px;">
+                    {% include 'Base-Content/BottomMenu/bottomMenu.html' %}
+                </div>
+            </div>
+        </div>
+        <script src="{% static 'codeblood_foundations/node_modules/jquery/dist/jquery.js' %}"></script>
+        <script src="{% static 'codeblood_foundations/node_modules/what-input/dist/what-input.js' %}"></script>
+        <script src="{% static 'codeblood_foundations/node_modules/foundation-sites/dist/js/foundation.js' %}" ></script>
+        <script src="{% static 'codeblood_foundations/js/app.js' %}"></script>
+    </body>
+</html>
